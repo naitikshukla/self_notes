@@ -1,0 +1,13 @@
+Different ways to handle missing values.
+
+1. Delete rows with missing data. (Consider only if the data is huge and missing values are very less in number).
+2. Mean/Median/Mode imputation. (Median preferred for data with outliers).
+3. Assigning a random value to them (random imputation between mean and 2 standard deviations on both sides).
+4. Predicting the missing values using Machine Learning Models.
+5. Using an algorithm that supports missing values, like Random Forest.
+6. KNN imputation
+7. Imputation Using Multivariate Imputation by Chained Equation (MICE)
+8. Imputation Using Deep Learning (Datawig)
+
+
+Note: Will be adding links later for each type
